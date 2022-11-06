@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(krv.jpg); 
+    background-repeat: no-repeat;
+    background-position: 100%; 
+    background-size:980px; 
+    background-size: cover;
+}
+
+.box{
+    width: 300px;
+    height: 530px;
+    background: rgb(223, 223, 238);
+    border-radius: 26%;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 300px;
+    margin-top: 1%;
+    color: rgb(19, 18, 18);
+    font-family: sans-serif;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+.box h1{
+    font-size: 23px;
+    letter-spacing: 4px;
+    font-weight:bold;
+}
+.box h5{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.box p {
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin:20px;
+    list-style: none;
+}
+.box li a{
+    color: rgb(40, 10, 95);
+    font-size: 30px;
+    transition:all ease-in-out 250ms;
+}
+li a:hover{
+   color: #8b2b2b; 
+}
